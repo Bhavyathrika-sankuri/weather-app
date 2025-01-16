@@ -8,7 +8,7 @@
     margin-left: 390px;
     margin-top: 10px;
     align-content: center;
-    width:80%;
+    width:50%;
     background:rgb(12, 185, 156) ;
     border-radius: 20px;
     padding: 20px;
@@ -64,6 +64,7 @@ button{
 @media (max-width : 900px){
     .container{
         margin-left: 290px;
+        width: 50%
     }     
 }
 
@@ -114,7 +115,10 @@ button{
     }
 }
 
-@media (max-width : 500px){   
+@media (max-width : 500px){ 
+    .container{
+        width:80%;
+    }    
     #heading{
         font-size: 30px;
     }
@@ -139,6 +143,9 @@ button{
 }
 
 @media (max-width : 400px){
+    .container{
+        width:80%;
+    }    
     #heading{
         font-size: 30px;
     }
@@ -157,8 +164,10 @@ button{
 
 
 
-@media (max-width : 350px){   
-
+@media (max-width : 350px){  
+    .container{
+        width:80%;
+    }     
     .search{
         margin: 2px 0 0 1px;
     }
