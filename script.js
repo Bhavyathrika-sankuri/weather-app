@@ -18,7 +18,7 @@ async function weather(){
     let data = await response.json();
     console.log(data);
 
-    if(response.status==404 || input.value ==""){
+    if(response.status==404 || input.value ===""){
         alert("city not found");
     }else{
         document.querySelector("#city").innerText = data.name;
